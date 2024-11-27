@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: bisque;
+    height: 100px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+
+}
+.logo{
+    background: url("/path") no-repeat; 
+    background-color: transparent; 
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    text-indent: -9999px;
+    clip-path: circle(50%);
+}
+.title{
+    font-weight: 400;
+    text-transform: capitalize;
+}
